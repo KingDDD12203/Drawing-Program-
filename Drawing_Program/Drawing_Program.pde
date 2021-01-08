@@ -36,4 +36,4 @@ thick = thin*2;
 
 void mousePressed() {
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) exit();
-}//End mousePressed()
+}//End mousePressed()  

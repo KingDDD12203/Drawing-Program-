@@ -12,10 +12,10 @@ color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF;
   //
   size (600, 400); //Portrait Mode
   //Population
-  buttonX = width*1/4;
-  buttonY = height*1/4;
-  buttonWidth = width*1/2;
-  buttonHeight = height*1/2;
+  buttonX = width*1/8;
+  buttonY = height*1/8;
+  buttonWidth = width*1/8;
+  buttonHeight = height*1/8;
   thin = width*1/100;
 thick = thin*2;
   //

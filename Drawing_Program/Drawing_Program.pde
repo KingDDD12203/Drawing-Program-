@@ -58,6 +58,11 @@ thick = thin*2;
 
 void mousePressed() {
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) exit();
-
+println("drawing surface");
+    if (draw == false) {
+      draw = true;
+    } else {
+      draw = false;
+    }
 
 }

@@ -19,15 +19,15 @@ Boolean draw=false;
   //Population
   x = width*1/4;
 y = height*1/4;
- rectWidth = width*1/2;
-rectHeight = height*1/2;
+ rectWidth = width*3/4;
+rectHeight = height*3/4;
 thin = width*1/100;
 thick = thin*2;
 
   buttonX = width*1/20;
   buttonY = height*1/20;
-  buttonWidth = width*1/8;
-  buttonHeight = height*1/8;
+  buttonWidth = width*1/10;
+  buttonHeight = height*1/10;
   thin = width*1/100;
 thick = thin*2;
   //

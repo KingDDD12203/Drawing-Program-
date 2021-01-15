@@ -2,7 +2,7 @@ int x, y, rectWidth, rectHeight ;
  int buttonX, buttonY, buttonWidth, buttonHeight;
  int blueX, blueY, blueWidth, blueHeight;
  int thin, thick;
-color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF;
+color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF, blue=#0352FA;
 color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
 //float drawingDiameter;

@@ -1,5 +1,6 @@
 int x, y, rectWidth, rectHeight ;
  int buttonX, buttonY, buttonWidth, buttonHeight;
+ int blueX, blueY, blueWidth, blueHeight;
  int thin, thick;
 color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF;
 color ink, black=#000000;
@@ -30,9 +31,16 @@ thick = thin*2;
   buttonHeight = height*1/10;
   thin = width*1/100;
 thick = thin*2;
+
+ blueX = width*1/4;
+blueY = height*1/4;
+blueWidth = width*1/10;
+blueHeight = height*1/10;
+thin = width*1/100;
+thick = thin*2;
   //
  rect(x, y, rectWidth, rectHeight);
-
+rect(blueX,blueY,blueWidth,blueHeight);
 
   //
 } //End setup()

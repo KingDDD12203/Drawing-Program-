@@ -55,8 +55,7 @@ rect(blueX,blueY,blueWidth,blueHeight);
   fill(buttonColour);
   rect(buttonX, buttonY, buttonWidth, buttonHeight);
   fill(resetWhite);
-
-
+ 
 
   if (draw == true) {
     fill(ink);

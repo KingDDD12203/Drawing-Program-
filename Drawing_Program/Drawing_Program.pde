@@ -54,12 +54,9 @@ rect(blueX,blueY,blueWidth,blueHeight);
   } //End IF
   fill(buttonColour);
   rect(buttonX, buttonY, buttonWidth, buttonHeight);
-  fill(resetWhite)
-  
-  fill(buttonColor);
-  rect (blueX,blueY,blueWidth,blueHeight);
   fill(resetWhite);
- 
+
+
 
   if (draw == true) {
     fill(ink);

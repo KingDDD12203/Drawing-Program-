@@ -1,17 +1,17 @@
 int x, y, rectWidth, rectHeight ;
- int buttonX, buttonY, buttonWidth, buttonHeight;
- int blueX, blueY, blueWidth, blueHeight;
- int thin, thick;
+int buttonX, buttonY, buttonWidth, buttonHeight;
+int blueX, blueY, blueWidth, blueHeight;
+int thin, thick;
 color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF, blue=#0352FA;
 color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
 //float drawingDiameter;
 Boolean draw=false;
 //
-   
- void setup() {
+
+void setup() {
   size (600, 400);
-  //Portrait Geometry, height is smaller thus dimension of face (circle)
+
   //
   //Variable Population
 
@@ -19,34 +19,34 @@ Boolean draw=false;
   size (600, 400); //Portrait Mode
   //Population
   x = width*1/4;
-y = height*1/4;
- rectWidth = width*3/4;
-rectHeight = height*3/4;
-thin = width*1/100;
-thick = thin*2;
+  y = height*1/4;
+  rectWidth = width*3/4;
+  rectHeight = height*3/4;
+  thin = width*1/100;
+  thick = thin*2;
 
-  buttonX = width*1/20;
+  buttonX = width*17/20;
   buttonY = height*1/20;
   buttonWidth = width*1/10;
   buttonHeight = height*1/10;
   thin = width*1/100;
-thick = thin*2;
+  thick = thin*2;
 
- blueX = width*1/4;
-blueY = height*1/4;
-blueWidth = width*1/10;
-blueHeight = height*1/10;
-thin = width*1/100;
-thick = thin*2;
+  blueX = width*1/20;
+  blueY = height*1/20;
+  blueWidth = width*1/10;
+  blueHeight = height*1/10;
+  thin = width*1/100;
+  thick = thin*2;
   //
- rect(x, y, rectWidth, rectHeight);
-rect(blueX,blueY,blueWidth,blueHeight);
+  rect(x, y, rectWidth, rectHeight); fill(blue);
+  rect(blueX, blueY, blueWidth, blueHeight);
 
   //
 } //End setup()
 
- void draw() {
- println(mouseX, mouseY); //Proves that mouse has builtin variables based on coordinate plane
+void draw() {
+  println(mouseX, mouseY); //Proves that mouse has builtin variables based on coordinate plane
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) {
     buttonColour = pink;
   } else {
@@ -66,11 +66,10 @@ rect(blueX,blueY,blueWidth,blueHeight);
 
 void mousePressed() {
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) exit();
-println("drawing surface");
-    if (draw == false) {
-      draw = true;
-    } else {
-      draw = false;
-    }
-
+  println("drawing surface");
+  if (draw == false) {
+    draw = true;
+  } else {
+    draw = false;
+  }
 }

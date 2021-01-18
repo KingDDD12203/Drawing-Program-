@@ -1,8 +1,9 @@
 int x, y, rectWidth, rectHeight ;
 int buttonX, buttonY, buttonWidth, buttonHeight;
 int blueX, blueY, blueWidth, blueHeight;
+int redX, redY, redWidth, redHeight;
 int thin, thick;
-color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF, blue=#0352FA;
+color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF, blue=#0352FA, red=#EA3636;
 color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
 //float drawingDiameter;
@@ -38,9 +39,17 @@ void setup() {
   blueHeight = height*1/10;
   thin = width*1/100;
   thick = thin*2;
+  
+   redX = width*1/20;
+  redY = height*4/20;
+  redWidth = width*1/10;
+  redHeight = height*1/10;
+  thin = width*1/100;
+  thick = thin*2;
   //
   rect(x, y, rectWidth, rectHeight); fill(blue);
-  rect(blueX, blueY, blueWidth, blueHeight);
+  rect(blueX, blueY, blueWidth, blueHeight); fill(red);
+   rect(redX, redY, redWidth, redHeight); 
 
   //
 } //End setup()

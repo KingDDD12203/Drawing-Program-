@@ -51,7 +51,7 @@ void setup() {
   rect(blueX, blueY, blueWidth, blueHeight); fill(red);
    rect(redX, redY, redWidth, redHeight); 
 
-  //
+  //  
 } //End setup()
 
 void draw() {

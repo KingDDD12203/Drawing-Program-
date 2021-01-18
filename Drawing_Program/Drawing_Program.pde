@@ -13,7 +13,7 @@ Boolean draw=false;
 
 void setup() {
   size (600, 400);
-
+  
   //
   //Variable Population
 

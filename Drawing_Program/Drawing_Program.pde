@@ -10,7 +10,7 @@ color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
 //float drawingDiameter;
 Boolean draw=false;
-//
+//  
 
 void setup() {
   size (600, 400);

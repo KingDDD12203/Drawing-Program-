@@ -106,7 +106,7 @@ if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rec
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
-
+  
  //End draw()
 
 void mousePressed() {

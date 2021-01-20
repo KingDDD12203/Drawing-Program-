@@ -11,7 +11,7 @@ color buttonColour, pink=#F560D2, orange=#FA9D08, resetWhite=#FFFFFF, blue=#0352
 color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
 //float drawingDiameter;
-Boolean draw=true;
+Boolean draw=false;
 //  
 
 void setup() {
@@ -101,7 +101,7 @@ void draw() {
   rect(buttonX, buttonY, buttonWidth, buttonHeight);
   fill(resetWhite);
 
-if (draw == true && mouseX>drawingSurfaceX  && mouseX<drawingSurfaceX+drawingSurfaceWidth  && mouseY>drawingSurfaceY && mouseY<drawingSurfaceY+drawingSurfaceHeight) {
+if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rectHeight) {
     fill(ink);
     line(mouseX, mouseY, pmouseX, pmouseY);
   }

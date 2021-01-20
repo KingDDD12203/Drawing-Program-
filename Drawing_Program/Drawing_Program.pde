@@ -87,7 +87,7 @@ void setup() {
   rect(blackX, blackY, blackWidth, blackHeight); fill(resetWhite);
   rect(eraserX, eraserY, eraserWidth, eraserHeight);
 
-  //  
+  //    
 } //End setup()
 
 void draw() {

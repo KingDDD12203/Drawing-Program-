@@ -105,7 +105,7 @@ if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rec
     fill(ink);
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
-}
+}  
   
  //End draw()
 

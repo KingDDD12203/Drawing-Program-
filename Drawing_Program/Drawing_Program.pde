@@ -111,7 +111,8 @@ if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rec
 
 void mousePressed() {
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) exit();
-  if ( mouseX>x && mouseX<x+rectWidth && mouseY>y && mouseY<y+rectHeight ) ink = blue;
+  if ( mouseX>blueX && mouseX<blueX+blueWidth && mouseY>blueY && mouseY<blueY+blueHeight ) ink = blue;
+   if ( mouseX>redX && mouseX<redX+redWidth && mouseY>redY && mouseY<redY+redHeight ) ink = red; 
   println("drawing surface");
   if (draw == false) {
     draw = true;

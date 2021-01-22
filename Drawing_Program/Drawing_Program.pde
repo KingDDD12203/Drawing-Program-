@@ -100,7 +100,7 @@ void draw() {
   } //End IF
   fill(buttonColour);
   rect(buttonX, buttonY, buttonWidth, buttonHeight);
-  fill(resetWhite);
+  fill(resetWhite);  
 
 if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rectHeight) {
     stroke(ink);

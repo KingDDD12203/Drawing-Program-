@@ -116,6 +116,7 @@ void mousePressed() {
    if ( mouseX>redX && mouseX<redX+redWidth && mouseY>redY && mouseY<redY+redHeight ) ink = red; 
    if ( mouseX>yellowX && mouseX<yellowX+yellowWidth && mouseY>yellowY && mouseY<yellowY+yellowHeight ) ink = yellow;
     if ( mouseX>greenX && mouseX<greenX+greenWidth && mouseY>greenY && mouseY<greenY+greenHeight ) ink = green;
+       if ( mouseX>blackX && mouseX<blackX+blackWidth && mouseY>blackY && mouseY<blackY+blackHeight ) ink = black; 
   println("drawing surface");
  if ( mouseX>x && mouseX<x+rectWidth && mouseY>y && mouseY<y+rectHeight ) 
   if (draw == false) {

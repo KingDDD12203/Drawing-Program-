@@ -119,7 +119,7 @@ void mousePressed() {
     draw = true;
   } else {
     draw = false;
-  }
+  }  
 }    
   
 //End mousePressed

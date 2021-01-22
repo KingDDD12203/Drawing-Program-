@@ -22,7 +22,8 @@ void setup() {
 
   //
   size (600, 400); //Portrait Mode
-  //Population
+  println("Test", ink);
+  //Population;
   x = width*1/4;
   y = height*1/4;
   rectWidth = width*3/4;
@@ -91,7 +92,7 @@ void setup() {
 } //End setup()
 
 void draw() {
-  println(mouseX, mouseY); //Proves that mouse has builtin variables based on coordinate plane
+ // println(mouseX, mouseY); //Proves that mouse has builtin variables based on coordinate plane
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) {
     buttonColour = pink;
   } else {
@@ -102,7 +103,7 @@ void draw() {
   fill(resetWhite);
 
 if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rectHeight) {
-    fill(ink);
+    stroke(ink);
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
 }    
@@ -113,6 +114,7 @@ void mousePressed() {
   if ( mouseX>buttonX && mouseX<buttonX+buttonWidth && mouseY>buttonY && mouseY<buttonY+buttonHeight ) exit();
   if ( mouseX>blueX && mouseX<blueX+blueWidth && mouseY>blueY && mouseY<blueY+blueHeight ) ink = blue;
    if ( mouseX>redX && mouseX<redX+redWidth && mouseY>redY && mouseY<redY+redHeight ) ink = red; 
+   if ( mouseX>yellowX && mouseX<yellowX+yellowWidth && mouseY>yellowY && mouseY<yellowY+yellowHeight ) ink = yellow;
   println("drawing surface");
  if ( mouseX>x && mouseX<x+rectWidth && mouseY>y && mouseY<y+rectHeight ) 
   if (draw == false) {

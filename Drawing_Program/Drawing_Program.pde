@@ -98,7 +98,7 @@ void draw() {
   } else {
     buttonColour = orange;
   } //End IF
-  fill(buttonColour);
+  fill(buttonColour);  
   rect(buttonX, buttonY, buttonWidth, buttonHeight);
   fill(resetWhite);  
 

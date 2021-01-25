@@ -8,7 +8,7 @@ int blackX, blackY, blackWidth, blackHeight;
 int eraserX, eraserY, eraserWidth, eraserHeight;
 int thin, thick;
 color buttonColour, pink=#F560D2, orange=#FA9D08 ;
-color ink, black=#000000, resetWhite=#FFFFFF, blue=#0352FA, red=#EA3636, yellow=#EAC436, green=#17AF43;
+color ink, black=#000000, resetWhite=#FFFFFF, blue=#0E3FEA, red=#EA3636, yellow=#EAC436, green=#17AF43;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
 //float drawingDiameter;
 Boolean draw=false;

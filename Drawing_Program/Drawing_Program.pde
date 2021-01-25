@@ -105,8 +105,8 @@ void draw() {
 if (draw == true && mouseX>x  && mouseX<x+rectWidth  && mouseY>y && mouseY<y+rectHeight) {
     stroke(ink);
     line(mouseX, mouseY, pmouseX, pmouseY);
-  }  
-}    
+  }
+}
   
  //End draw()
   
